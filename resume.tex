@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Nilanjan Nayak
+% Website: https://github.com/nylenx/resume
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{multicol}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Nilanjan Nayak}} & Email : \href{mailto:ifnilanjan@gmail.com}{ifnilanjan@gmail.com}\\
+    
+  \href{https://www.linkedin.com/in/nilanjan-nayak-75b289202/} {
+    \begin{tikzpicture}
+        \node[scale=1,RoyalBlue] at (0,0){\faIcon{linkedin}/in/nilanjan-nayak-75b289202};
+    \end{tikzpicture}} & 
+    Mobile : +91-700-181-7312 \\
+
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {OneMed \& A2Z Solutions Pvt Ltd.}{Kolkata, WB}
+      {Digital Marketing Executive}{Feb 2024 - Present}
+      \resumeItemListStart
+        \resumeItem{SEO}
+          {Responsible for optimizing website content and structure to improve search engine rankings, drive organic traffic, and enhance overall online visibility.}
+        \resumeItem{Analytics}
+          {Utilize SEO tools such as SEMrush, Google Analytics, and Search Console to monitor and analyze website performance, identify areas for improvement, and track progress effectively.}
+        \resumeItem{Automation}
+          {Develop and implement \href{https://www.selenium.dev/}{\textbf{SELENIUM}} automation scripts to efficiently collect and manage potential lead data from various online platforms.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Intelmetic LTD}{Kolkata, WB}
+      {Associate Software Engineer}{Aug 2021 - Aug 2023}
+      \resumeItemListStart
+        \resumeItem{Notifications}
+          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
+        \resumeItem{Nostos}
+          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+        \resumeItem{Workflows}
+          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+        \resumeItem{Data Collection}
+          {Designed the internal survey and crowd sourcing platfowm which allowed for creating various tasks for crowd sourding or embedding surveys across the Coursera platform.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Camellia Institute of Technology}{North 24 pgs, WB}
+      {Bachelor of Science in Computer Science;  CGPA: 8.15}{Aug. 2021 -- July. 2024}
+    \resumeSubheading
+      {Central Calcutta Polytechnic (Govt. of W.B)}{Kolkata, WB}
+      {Diploma in Computer Science \& Technology;  PERCENTAGE: 86\%}{Jul. 2019 -- Aug. 2021}
+  \resumeSubHeadingListEnd
+
+
+\section{{tools \& Technologies}}
+\begin{multicols}{2}
+\begin{itemize}
+    \item Programming Languages: Python, JavaScript, Java
+    \item Web Technologies: HTML, CSS, JavaScript
+    \item Frameworks: ReactJS, NextJS
+    \item Cloud Technology: AWS services
+    \item Database Management: MySQL, MongoDB
+    \item Version Control: Git, Bitbucket
+    \item Other Tools: Adobe XD, Figma
+\end{itemize}
+\end{multicols}
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+      \resumeSubheading
+        {CulinaryMate}{  
+          \href{https://www.gihub.com/} {
+          \begin{tikzpicture}
+              \node[scale=1,Fuchsia] at (0,0){\faIcon{github}};
+          \end{tikzpicture}}
+          }
+        {Your culinary guide with ingredient detection and tailored recipe suggestions.}
+        
+      \resumeSubheading
+      {Certi-fly}{  
+         \href{https://www.gihub.com/} {
+          \begin{tikzpicture}
+              \node[scale=1,Fuchsia] at (0,0){\faIcon{github}};
+          \end{tikzpicture}}
+          }
+          {Workshop certification issuance for bulk participants without storage, while maintaining a streamlined  process.} 
+  
+  \resumeSubHeadingListEnd
+
+
+%-----------Certification-----------------
+\section{Certification}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SQL}{
+        \href{https://www.hackerrank.com/}{HackerRank}
+        }
+      {Skilled in SQL for database management, complex queries, and performance optimization.}
+
+    \resumeSubheading
+      {Python}{
+        \href{https://www.hackerrank.com/}{HackerRank}
+      }
+      {Proficient in Python for automation, data analysis, web development, and scripting.}
+  \resumeSubHeadingListEnd
+  
+
+%-------------------------------------------
+\end{document}
